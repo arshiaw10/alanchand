@@ -1,4 +1,30 @@
+# Python
 __pycache__/
-*.pyc
-storage/market_data.json
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Testing / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environment & secrets
 .env
+
+# Runtime data
+data/
+*.tmp
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
